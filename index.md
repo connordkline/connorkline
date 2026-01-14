@@ -1,11 +1,17 @@
+---
+layout: default
+title: Home  # Keep this short – no full name here
+---
 
-Incoming Mechanical Engineering Major
+# Connor Kline
+
+Incoming Mechanical Major  
 FTC Robotics Head Captain | SolidWorks CSWA Certified  
 Highlands Ranch
 
-Passionate about mechanical design, robotics, and aerospace systems.  
-Led FTC team to 2024 Inspire Award & Winning Alliance as Head Captain.
+[About Me](about.md) • [Skills](skills.md) • [Projects](projects.md) • [Awards](awards.md) • [Resume](resume.md)
 
-[About Me](about.md) • [Skills](skills.md) • [Projects](projects.md) • [Awards & Leadership](awards.md) • [Resume](resume.md)
+Passionate about mechanical design, robotics, and aerospace. Led FTC team to Inspire Award and Winning Alliance victories.
 
-{: style="max-width: 900px; margin: 2rem auto; border-radius: 8px;"}
+
+{: style="max-width: 800px; margin: 2rem auto; border-radius: 8px;"}

@@ -1,4 +1,7 @@
 title: Connor Kline
 description: Mechanical Engineering Portfolio
 
-theme: minima   # Built-in theme, no remote or plugin required
+remote_theme: alshedivat/al-folio
+
+plugins:
+  - jekyll-remote-theme

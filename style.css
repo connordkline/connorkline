@@ -85,5 +85,14 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
-    margin-top: 80px;
+    margin-top: 80px;  
+}
+.project-image {
+    width: 100%;          /* Makes image fill the card width */
+    max-width: 500px;     /* Prevents it from being too big */
+    height: auto;         /* Keeps correct aspect ratio */
+    display: block;
+    margin: 20px auto;    /* Centers the image */
+    border-radius: 8px;   /* Rounded corners for a professional look */
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15); /* Soft shadow for depth */
 }

@@ -1,0 +1,12 @@
+title: Connor Kline
+description: Incoming Mechanical Engineering Student | FTC Robotics Leader
+
+remote_theme: alshedivat/al-folio  # Loads the theme from GitHub
+
+plugins:
+  - jekyll-remote-theme
+
+# Optional (customize name, bio, etc.)
+author:
+  name: Connor Kline
+  email: connorkline2@gmail.com

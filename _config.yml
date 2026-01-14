@@ -1,7 +1,4 @@
 title: Connor Kline
-description: Mechanical Engineering Portfolio
-theme: architect
-
-# Remove or minimize repeats
-author:
-  name: Connor Kline  # Only once here
+description: Mechanical / Aerospace Engineering Portfolio
+theme: minima
+show_downloads: true

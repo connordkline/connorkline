@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home  # Keep this short – no full name here
+title: Home
 ---
 
 # Connor Kline

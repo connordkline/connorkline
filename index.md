@@ -3,7 +3,6 @@ layout: default
 title: Home
 ---
 
-
 Incoming Mechanical Enginering Major  
 FTC Robotics Head Captain | SolidWorks CSWA Certified  
 Highlands Ranch Colorado

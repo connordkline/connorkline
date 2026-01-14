@@ -1,0 +1,21 @@
+title: Connor Kline
+description: Mechanical Engineering Portfolio
+author:
+  name: Connor Kline
+  email: connorkline2@gmail.com
+
+# Choose one theme (uncomment the one you want)
+theme: minima                     # built-in simple theme
+# remote_theme: alshedivat/al-folio  # nicer academic/portfolio look
+# remote_theme: LeNPaul/portfolio-jekyll-theme
+
+plugins:
+  - jekyll-remote-theme           # needed if using remote_theme
+
+# Optional: navigation menu links (most themes will show these)
+header_pages:
+  - index.md
+  - about.md
+  - projects.md
+  - skills.md
+  - resume.md

@@ -1,17 +1,38 @@
+/* GLOBAL */
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f4f6f8;
-    color: #333;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    color: #1e293b;
     line-height: 1.6;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #0f4c81;
+    padding: 16px 0;
+    text-align: center;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #c7ddf5;
 }
 
 /* HERO */
 .hero {
-    background-color: #1f2933;
+    background: linear-gradient(135deg, #0f4c81, #1e88e5);
     color: white;
     text-align: center;
-    padding: 80px 20px;
+    padding: 90px 20px;
 }
 
 .hero h1 {
@@ -21,45 +42,48 @@ body {
 
 .hero h2 {
     font-weight: 300;
-    margin-bottom: 10px;
+    opacity: 0.9;
 }
 
 /* SECTIONS */
 section {
     max-width: 900px;
-    margin: 60px auto;
+    margin: 70px auto;
     padding: 0 20px;
 }
 
-section h2 {
-    border-bottom: 2px solid #1f2933;
-    display: inline-block;
+section h1, section h2 {
+    color: #0f4c81;
     margin-bottom: 20px;
+    border-bottom: 3px solid #1e88e5;
+    display: inline-block;
+    padding-bottom: 5px;
 }
 
-/* SKILLS */
-.skills ul {
-    list-style-type: square;
+/* CARDS (PROJECTS / CERTS) */
+.card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    border-left: 6px solid #1e88e5;
+}
+
+/* LISTS */
+ul {
     padding-left: 20px;
 }
 
-/* PROJECTS */
-.project-card {
-    background: white;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-left: 5px solid #1f2933;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-/* CONTACT */
-.contact p {
-    margin: 5px 0;
+li {
+    margin-bottom: 8px;
 }
 
 /* FOOTER */
 footer {
+    background-color: #0f4c81;
+    color: white;
     text-align: center;
     padding: 20px;
-    background: #e5e7eb;
+    margin-top: 80px;
 }

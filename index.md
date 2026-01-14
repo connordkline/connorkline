@@ -3,11 +3,10 @@ layout: default
 title: Home
 ---
 
-# Connor Kline
 
-Incoming Mechanical Major  
+Incoming Mechanical Enginering Major  
 FTC Robotics Head Captain | SolidWorks CSWA Certified  
-Highlands Ranch
+Highlands Ranch Colorado
 
 [About Me](about.md) • [Skills](skills.md) • [Projects](projects.md) • [Awards](awards.md) • [Resume](resume.md)
 

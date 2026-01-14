@@ -13,5 +13,4 @@ Highlands Ranch, CO
 
 Passionate about mechanical design, robotics, and aerospace. Led FTC team to Inspire Award and Winning Alliance victories.
 
-![Featured Image](images/ftc-hero.jpg)
 {: style="max-width: 800px; margin: 2rem auto; border-radius: 8px;"}

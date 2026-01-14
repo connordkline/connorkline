@@ -60,16 +60,6 @@ section h1, section h2 {
     padding-bottom: 5px;
 }
 
-/* CARDS (PROJECTS / CERTS) */
-.card {
-    background: white;
-    padding: 25px;
-    margin-bottom: 25px;
-    border-radius: 10px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-    border-left: 6px solid #1e88e5;
-}
-
 /* LISTS */
 ul {
     padding-left: 20px;

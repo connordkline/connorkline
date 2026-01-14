@@ -1,9 +1,3 @@
----
-layout: default
-title: Connor Kline
----
-
-# Connor Kline
 
 Incoming Mechanical Engineering Major
 FTC Robotics Head Captain | SolidWorks CSWA Certified  

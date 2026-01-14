@@ -1,14 +1,10 @@
----
-layout: default   # Change to 'home' or remove if your theme complains
-title: Connor Kline - Mechanical Engineering Portfolio
----
 
 # Connor Kline
 
-**Incoming Mechanical/Aerospace Engineering Freshman**  
+**Incoming Mechanical Engineering Freshman**  
 **FTC Robotics Head Captain** | SolidWorks CSWA Certified  
 Castle Rock / Highlands Ranch, CO  
-connorkline2@gmail.com | linkedin.com/in/connorkline (add your real LinkedIn)
+connorkline2@gmail.com | linkedin.com/in/connordkline
 
 ## About Me
 I’m a high school senior passionate about mechanical design, robotics, and aerospace systems. As Head Captain of my FTC robotics team, I led design, prototyping, and competition strategy using SolidWorks, Fusion 360, and Creo — earning the 2024 Inspire Award and Winning Alliance, plus 2025 Inspire Runner-Up. Experienced in 3D printing, hardware builds (multiple high-end PCs), and team leadership. Seeking a summer 2027 internship to apply hands-on skills in real engineering projects.

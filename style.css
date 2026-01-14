@@ -107,3 +107,50 @@ footer {
     margin-left: auto;
     margin-right: auto;
 }
+/* MOBILE RESPONSIVE STYLES */
+@media (max-width: 768px) {
+    /* Make navbar links stack vertically */
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    .navbar a {
+        margin: 8px 0; /* space between links */
+        font-size: 1.1rem;
+    }
+
+    /* Cards should fill most of the screen width */
+    .card {
+        max-width: 90%;   /* smaller than full width with margin */
+        padding: 20px;
+    }
+
+    /* Hero section text smaller and centered */
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero h2 {
+        font-size: 1.2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
+
+    /* Images inside cards scale nicely */
+    .project-image {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /* Sections have smaller padding */
+    section {
+        margin: 40px auto;
+        padding: 0 10px;
+    }
+}

@@ -103,7 +103,7 @@ footer {
     border-radius: 10px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.08);
     border-left: 6px solid #1e88e5;
-    max-width: 200px;    /* Prevent cards from getting too wide */
+    max-width: 800px;    /* Prevent cards from getting too wide */
     margin-left: auto;
     margin-right: auto;
 }

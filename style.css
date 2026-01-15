@@ -160,7 +160,7 @@ footer {
 }
 /* Default size for desktop */
 .certification-image {
-    width: 75px;      /* small on desktop */
+    width: 150px;      /* small on desktop */
     height: auto;
     display: block;
     margin: 20px auto;

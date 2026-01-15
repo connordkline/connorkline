@@ -234,7 +234,7 @@ section {
 /* Floating icons container */
 .floating-icons {
     position: absolute; /* position relative to hero */
-    top: 50px;          /* distance from top of hero section */
+    top: 120px;          /* distance from top of hero section */
     width: 100%;
     height: 100px;
     pointer-events: none; /* so they don’t block clicks */

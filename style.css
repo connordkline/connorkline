@@ -295,3 +295,20 @@ section {
     width: 60px !important;
     height: 60px !important;
 }
+.hero {
+    text-align: center;
+    background-color: #1e88e5;
+    background-image: repeating-linear-gradient(
+        45deg,
+        rgba(255,255,255,0.05),
+        rgba(255,255,255,0.05) 1px,
+        transparent 1px,
+        transparent 10px
+    );
+    color: white;
+    padding: 80px 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+

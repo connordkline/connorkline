@@ -158,11 +158,19 @@ footer {
 .button:hover {
     background-color: #1565c0;
 }
+/* Default size for desktop */
 .certification-image {
-    width: 100%;
-    max-width: 150px;   /* smaller */
+    width: 150px;      /* small on desktop */
     height: auto;
     display: block;
     margin: 20px auto;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .certification-image {
+        width: 250px;   /* bigger on tablets & phones */
+        max-width: 80%; /* ensures it doesn't overflow */
+    }
 }
 

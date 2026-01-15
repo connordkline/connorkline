@@ -283,3 +283,15 @@ section {
         height: 80px;
     }
 }
+.floating-icon {
+    filter: brightness(0) invert(1); /* makes all icons white */
+}
+.floating-icon {
+    position: absolute;
+    opacity: 0.8;
+    animation: float 6s ease-in-out infinite;
+
+    /* force uniform size */
+    width: 60px !important;
+    height: 60px !important;
+}

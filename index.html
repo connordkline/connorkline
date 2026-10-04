@@ -1,73 +1,600 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Connor Kline | Future Mechanical Engineer</title>
 
-    <!-- LINK TO CSS -->
-    <link rel="stylesheet" href="style.css">
+```
+<title>Connor Kline | Mechanical Engineering Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+```
+
 </head>
+
 <body>
 
-    <!-- NAVIGATION BAR -->
-    <nav class="navbar">
-        <a href="index.html">Home</a>
-        <a href="about.html">About Me</a>
-        <a href="projects.html">Projects</a>
-        <a href="certifications.html">Certifications</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+```
+<!-- NAVIGATION -->
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="#home" class="nav-logo">CK</a>
 
-    <!-- HERO SECTION -->
-    <header class="hero">
-        <h1>Connor Kline</h1>
-        <h2>Future Mechanical Engineer</h2>
-        <p>High school junior passionate about design, prototyping, and mechanical engineering competitions.</p>
-    </header>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+</nav>
 
-    <!-- INTRO SECTION -->
-    <section class="intro">
-        <h1>Welcome</h1>
-        <p>
-            Welcome to my portfolio. I’m Connor Kline, a high school junior from Highlands Ranch, Colorado,
-            graduating in May 2027 and starting my B.S. in Mechanical Engineering in Fall 2027.
-            I’ve led design, prototyping, and competition efforts using SolidWorks, Fusion 360, and Creo —
-            earning the 2024 Inspire Award and Winning Alliance, plus 2025 Inspire Runner-Up.
+
+<!-- HERO -->
+<header id="home" class="hero">
+
+    <div class="hero-grid"></div>
+
+    <div class="hero-content">
+
+        <p class="hero-label">MECHANICAL ENGINEERING PORTFOLIO</p>
+
+        <h1>Connor<br><span>Kline</span></h1>
+
+        <h2>Incoming Mechanical Engineering Student</h2>
+
+        <p class="hero-description">
+            Hands-on experience in mechanical design, 3D modeling,
+            robotics systems, and hardware builds.
         </p>
-    </section>
 
-    <!-- HIGHLIGHTS SECTION -->
-    <section class="highlights">
-        <h1>Highlights</h1>
+        <div class="hero-buttons">
+            <a href="#projects" class="button primary-button">
+                View My Projects
+            </a>
 
-        <div class="card">
+            <a href="#contact" class="button secondary-button">
+                Contact Me
+            </a>
+        </div>
+
+    </div>
+
+    <div class="hero-engineering-mark">
+        <span>01</span>
+        <div class="engineering-line"></div>
+        <span>ENGINEERING</span>
+    </div>
+
+</header>
+
+
+<!-- ABOUT -->
+<section id="about" class="section about-section">
+
+    <div class="section-heading">
+        <p class="section-number">01</p>
+        <h2>About Me</h2>
+    </div>
+
+    <div class="about-grid">
+
+        <div class="about-main">
+            <p class="large-text">
+                I am an incoming Mechanical Engineering student with
+                hands-on experience designing, building, testing, and
+                collaborating on engineering projects.
+            </p>
+
+            <p>
+                My experience includes mechanical design, 3D modeling,
+                robotics systems, and hardware builds. I enjoy taking
+                an idea from a concept into something that can actually
+                be built and tested.
+            </p>
+
+            <p>
+                I am currently preparing to study Mechanical Engineering
+                at Walla Walla University beginning Fall 2027.
+            </p>
+        </div>
+
+        <div class="education-card">
+
+            <p class="card-label">EDUCATION</p>
+
+            <h3>Walla Walla University</h3>
+
+            <p class="location">College Place, WA</p>
+
+            <div class="education-detail">
+                <strong>Fall 2027</strong>
+                <span>Incoming Student</span>
+            </div>
+
+            <p>
+                Intended Major: Mechanical Engineering
+            </p>
+
+            <div class="divider"></div>
+
+            <h3>Mile High Academy</h3>
+
+            <p class="location">
+                Highlands Ranch, CO
+            </p>
+
+            <div class="education-detail">
+                <strong>May 2027</strong>
+                <span>Expected Graduation</span>
+            </div>
+
+            <p>
+                Senior Cumulative Unweighted GPA: <strong>3.98</strong>
+            </p>
+
+            <p class="achievement">
+                National Honor Society<br>
+                Principal's List 2023–Present<br>
+                Class Rank: #1
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- SKILLS -->
+<section id="skills" class="section skills-section">
+
+    <div class="section-heading">
+        <p class="section-number">02</p>
+        <h2>Technical Skills</h2>
+    </div>
+
+    <div class="skills-grid">
+
+        <div class="skill-card">
+            <div class="skill-icon">CAD</div>
             <h3>CAD & Design</h3>
-            <p>
-                Experienced in SolidWorks for part modeling, assemblies,
-                and technical drawings.
-            </p>
+
+            <div class="skill-tags">
+                <span>SolidWorks</span>
+                <span>CSWA</span>
+                <span>Fusion 360</span>
+                <span>Creo</span>
+            </div>
         </div>
 
-        <div class="card">
-            <h3>Engineering Analysis</h3>
-            <p>
-                Familiar with analysis software such as MATLAB and ANSYS.
-            </p>
+
+        <div class="skill-card">
+            <div class="skill-icon">HW</div>
+            <h3>Hardware</h3>
+
+            <div class="skill-tags">
+                <span>PC Assembly</span>
+                <span>System Optimization</span>
+                <span>RC Drone Systems</span>
+            </div>
         </div>
 
-        <div class="card">
-            <h3>Manufacturing</h3>
-            <p>
-                Knowledge of machining, tolerances, and design for manufacturability.
-            </p>
-        </div>
-    </section>
 
-    <!-- FOOTER -->
-    <footer>
+        <div class="skill-card">
+            <div class="skill-icon">SW</div>
+            <h3>Software</h3>
+
+            <div class="skill-tags">
+                <span>Microsoft Word</span>
+                <span>Excel</span>
+                <span>PowerPoint</span>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- PROJECTS -->
+<section id="projects" class="section projects-section">
+
+    <div class="section-heading">
+        <p class="section-number">03</p>
+        <h2>Projects</h2>
+    </div>
+
+    <p class="section-intro">
+        Hands-on projects where I have applied design, modeling,
+        hardware, and problem-solving skills.
+    </p>
+
+
+    <div class="projects-grid">
+
+        <!-- PROJECT 1 -->
+        <article class="project-card featured-project">
+
+            <div class="project-image project-drone">
+                <div class="image-placeholder">
+                    <span>PROJECT IMAGE</span>
+                    <small>Fire-Detecting RC Drone</small>
+                </div>
+            </div>
+
+            <div class="project-content">
+
+                <p class="project-number">PROJECT 01</p>
+
+                <h3>Fire-Detecting RC Drone</h3>
+
+                <p>
+                    Designed and built a custom RC drone with onboard
+                    sensors for fire detection.
+                </p>
+
+                <div class="project-tags">
+                    <span>Hardware</span>
+                    <span>RC Systems</span>
+                    <span>Design</span>
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 2 -->
+        <article class="project-card">
+
+            <div class="project-image project-robot">
+                <div class="image-placeholder">
+                    <span>PROJECT IMAGE</span>
+                    <small>FTC Robot Prototypes</small>
+                </div>
+            </div>
+
+            <div class="project-content">
+
+                <p class="project-number">PROJECT 02</p>
+
+                <h3>FTC Robot Prototypes</h3>
+
+                <p>
+                    Designed and assembled multiple robotics prototypes
+                    in SolidWorks.
+                </p>
+
+                <div class="project-tags">
+                    <span>SolidWorks</span>
+                    <span>Robotics</span>
+                    <span>Prototyping</span>
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 3 -->
+        <article class="project-card">
+
+            <div class="project-image project-computer">
+                <div class="image-placeholder">
+                    <span>PROJECT IMAGE</span>
+                    <small>High-End Computer Builds</small>
+                </div>
+            </div>
+
+            <div class="project-content">
+
+                <p class="project-number">PROJECT 03</p>
+
+                <h3>High-End Computer Builds</h3>
+
+                <p>
+                    Assembled multiple custom high-performance
+                    computer systems.
+                </p>
+
+                <div class="project-tags">
+                    <span>PC Hardware</span>
+                    <span>Assembly</span>
+                    <span>Optimization</span>
+                </div>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- EXPERIENCE -->
+<section id="experience" class="section experience-section">
+
+    <div class="section-heading">
+        <p class="section-number">04</p>
+        <h2>Experience</h2>
+    </div>
+
+
+    <div class="timeline">
+
+        <!-- EXPERIENCE 1 -->
+        <div class="timeline-item">
+
+            <div class="timeline-marker"></div>
+
+            <div class="timeline-content">
+
+                <p class="timeline-date">SUMMER 2026</p>
+
+                <h3>Seasonal Employee</h3>
+
+                <h4>Castle Pines Village Metropolitan District</h4>
+
+                <p class="location">Castle Rock, CO</p>
+
+                <ul>
+                    <li>
+                        Completed multiple landscape and hardscape
+                        projects, including drainage systems,
+                        retaining walls, and re-landscaping.
+                    </li>
+
+                    <li>
+                        Handled site preparation, construction,
+                        and finishing work while meeting safety
+                        and quality standards.
+                    </li>
+
+                    <li>
+                        Collaborated with crew to deliver outdoor
+                        projects on schedule using hand tools
+                        and equipment.
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+
+        <!-- EXPERIENCE 2 -->
+        <div class="timeline-item">
+
+            <div class="timeline-marker"></div>
+
+            <div class="timeline-content">
+
+                <p class="timeline-date">07/2024 – 06/2026</p>
+
+                <h3>Lifeguard</h3>
+
+                <h4>Highlands Ranch Community Association</h4>
+
+                <p class="location">Highlands Ranch, CO</p>
+
+                <ul>
+                    <li>
+                        Monitored pool area to ensure safety and
+                        compliance with health regulations.
+                    </li>
+
+                    <li>
+                        Responded promptly to emergency situations,
+                        administering first aid and CPR as needed.
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ACHIEVEMENTS -->
+<section class="section achievements-section">
+
+    <div class="section-heading">
+        <p class="section-number">05</p>
+        <h2>Achievements & Activities</h2>
+    </div>
+
+
+    <div class="achievement-grid">
+
+        <div class="achievement-card featured-achievement">
+            <span class="achievement-year">2024</span>
+            <h3>FTC Inspire Award</h3>
+            <p>FIRST Tech Challenge Robotics</p>
+        </div>
+
+
+        <div class="achievement-card">
+            <span class="achievement-year">2024</span>
+            <h3>Winning Alliance</h3>
+            <p>FIRST Tech Challenge Robotics</p>
+        </div>
+
+
+        <div class="achievement-card">
+            <span class="achievement-year">2026</span>
+            <h3>Inspire Award — 3rd Place</h3>
+            <p>FIRST Tech Challenge Robotics</p>
+        </div>
+
+
+        <div class="achievement-card">
+            <span class="achievement-year">ATHLETICS</span>
+            <h3>Varsity Athletics</h3>
+            <p>Soccer & Baseball</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- COMMUNITY SERVICE -->
+<section class="section service-section">
+
+    <div class="service-card">
+
+        <div>
+            <p class="section-number">06</p>
+            <h2>Community Service</h2>
+        </div>
+
+        <div class="service-content">
+
+            <div class="service-number">
+                200+
+                <span>HOURS</span>
+            </div>
+
+            <p>
+                Over 200 hours of community service, including assisting
+                with home construction and teaching essential hygiene
+                techniques in Belize.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CERTIFICATION -->
+<section class="section certification-section">
+
+    <div class="section-heading">
+        <p class="section-number">07</p>
+        <h2>Certification</h2>
+    </div>
+
+    <div class="certification-card">
+
+        <div class="certification-info">
+
+            <p class="card-label">CERTIFICATION</p>
+
+            <h3>Certified SolidWorks Associate</h3>
+
+            <p>
+                CSWA certification demonstrating SolidWorks
+                CAD experience.
+            </p>
+
+            <div class="certification-badge">
+                CSWA
+            </div>
+
+        </div>
+
+        <div class="certification-image">
+            <img
+                src="images/cswa.png"
+                alt="Connor Kline CSWA Certification"
+            >
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact" class="contact-section">
+
+    <div class="contact-grid">
+
+        <div>
+
+            <p class="section-number">08</p>
+
+            <h2>Let's Connect</h2>
+
+            <p class="contact-intro">
+                Interested in my engineering projects, experience,
+                or future opportunities? I'd be happy to connect.
+            </p>
+
+            <div class="contact-buttons">
+
+                <a
+                    href="mailto:connorkline2@gmail.com"
+                    class="button primary-button"
+                >
+                    Email Me
+                </a>
+
+                <a
+                    href="tel:7209808055"
+                    class="button secondary-button"
+                >
+                    Call Me
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="contact-info">
+
+            <div class="contact-item">
+                <span>EMAIL</span>
+                <a href="mailto:connorkline2@gmail.com">
+                    connorkline2@gmail.com
+                </a>
+            </div>
+
+            <div class="contact-item">
+                <span>PHONE</span>
+                <a href="tel:7209808055">
+                    (720) 980-8055
+                </a>
+            </div>
+
+            <div class="contact-item">
+                <span>LOCATION</span>
+                <p>Highlands Ranch, Colorado</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+
+    <div class="footer-content">
+
+        <div>
+            <strong>Connor Kline</strong>
+            <p>Mechanical Engineering Portfolio</p>
+        </div>
+
         <p>© 2026 Connor Kline</p>
-    </footer>
+
+    </div>
+
+</footer>
+```
 
 </body>
 </html>

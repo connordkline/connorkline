@@ -1,585 +1,125 @@
-<!DOCTYPE html>
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Under Construction | Connor Kline</title>
 
-```
-<title>Connor Kline | Mechanical Engineering Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-<link rel="stylesheet" href="style.css">
-```
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 24px;
+            color: #eaf2ff;
+            background-color: #081426;
+            background-image:
+                linear-gradient(rgba(65, 130, 200, 0.08) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(65, 130, 200, 0.08) 1px, transparent 1px);
+            background-size: 35px 35px;
+        }
 
+        .container {
+            max-width: 650px;
+            width: 100%;
+            padding: 48px 30px;
+            border: 1px solid #263d5c;
+            border-radius: 20px;
+            background: rgba(12, 29, 52, 0.95);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        .icon {
+            font-size: 58px;
+            margin-bottom: 24px;
+        }
+
+        .status {
+            display: inline-block;
+            color: #72b7ff;
+            border: 1px solid #315b86;
+            background: #142e4c;
+            padding: 8px 14px;
+            border-radius: 50px;
+            font-size: 12px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            margin-bottom: 22px;
+        }
+
+        h1 {
+            font-size: clamp(32px, 7vw, 48px);
+            margin-bottom: 18px;
+            letter-spacing: -1px;
+        }
+
+        p {
+            color: #afc1d8;
+            font-size: 16px;
+            line-height: 1.8;
+            margin-bottom: 28px;
+        }
+
+        .accent {
+            color: #72b7ff;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 13px 24px;
+            border-radius: 8px;
+            background: #287bd1;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.2s, transform 0.2s;
+        }
+
+        .button:hover {
+            background: #4095ed;
+            transform: translateY(-2px);
+        }
+
+        footer {
+            margin-top: 35px;
+            color: #7188a5;
+            font-size: 13px;
+        }
+    </style>
 </head>
 
 <body>
+    <main class="container">
+        <div class="icon" aria-hidden="true">⚙️</div>
 
-```
+        <div class="status">CURRENTLY IN DEVELOPMENT</div>
 
-<!-- HERO -->
-<header id="home" class="hero">
+        <h1>Something <span class="accent">is being built.</span></h1>
 
-    <div class="hero-grid"></div>
-
-    <div class="hero-content">
-
-        <p class="hero-label">MECHANICAL ENGINEERING PORTFOLIO</p>
-
-        <h1>Connor<br><span>Kline</span></h1>
-
-        <h2>Incoming Mechanical Engineering Student</h2>
-
-        <p class="hero-description">
-            Hands-on experience in mechanical design, 3D modeling,
-            robotics systems, and hardware builds.
+        <p>
+            I'm working on improving this website.
+            New projects, engineering work, and updates
+            will be available here soon.
+            Thanks for stopping by!
         </p>
 
-        <div class="hero-buttons">
-            <a href="#projects" class="button primary-button">
-                View My Projects
-            </a>
-
-            <a href="#contact" class="button secondary-button">
-                Contact Me
-            </a>
-        </div>
-
-    </div>
-
-    <div class="hero-engineering-mark">
-        <span>01</span>
-        <div class="engineering-line"></div>
-        <span>ENGINEERING</span>
-    </div>
-
-</header>
-
-
-<!-- ABOUT -->
-<section id="about" class="section about-section">
-
-    <div class="section-heading">
-        <p class="section-number">01</p>
-        <h2>About Me</h2>
-    </div>
-
-    <div class="about-grid">
-
-        <div class="about-main">
-            <p class="large-text">
-                I am an incoming Mechanical Engineering student with
-                hands-on experience designing, building, testing, and
-                collaborating on engineering projects.
-            </p>
-
-            <p>
-                My experience includes mechanical design, 3D modeling,
-                robotics systems, and hardware builds. I enjoy taking
-                an idea from a concept into something that can actually
-                be built and tested.
-            </p>
-
-            <p>
-                I am currently preparing to study Mechanical Engineering
-                at Walla Walla University beginning Fall 2027.
-            </p>
-        </div>
-
-        <div class="education-card">
-
-            <p class="card-label">EDUCATION</p>
-
-            <h3>Walla Walla University</h3>
-
-            <p class="location">College Place, WA</p>
-
-            <div class="education-detail">
-                <strong>Fall 2027</strong>
-                <span>Incoming Student</span>
-            </div>
-
-            <p>
-                Intended Major: Mechanical Engineering
-            </p>
-
-            <div class="divider"></div>
-
-            <h3>Mile High Academy</h3>
-
-            <p class="location">
-                Highlands Ranch, CO
-            </p>
-
-            <div class="education-detail">
-                <strong>May 2027</strong>
-                <span>Expected Graduation</span>
-            </div>
-
-            <p>
-                Senior Cumulative Unweighted GPA: <strong>3.98</strong>
-            </p>
-
-            <p class="achievement">
-                National Honor Society<br>
-                Principal's List 2023–Present<br>
-                Class Rank: #1
-            </p>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- SKILLS -->
-<section id="skills" class="section skills-section">
-
-    <div class="section-heading">
-        <p class="section-number">02</p>
-        <h2>Technical Skills</h2>
-    </div>
-
-    <div class="skills-grid">
-
-        <div class="skill-card">
-            <div class="skill-icon">CAD</div>
-            <h3>CAD & Design</h3>
-
-            <div class="skill-tags">
-                <span>SolidWorks</span>
-                <span>CSWA</span>
-                <span>Fusion 360</span>
-                <span>Creo</span>
-            </div>
-        </div>
-
-
-        <div class="skill-card">
-            <div class="skill-icon">HW</div>
-            <h3>Hardware</h3>
-
-            <div class="skill-tags">
-                <span>PC Assembly</span>
-                <span>System Optimization</span>
-                <span>RC Drone Systems</span>
-            </div>
-        </div>
-
-
-        <div class="skill-card">
-            <div class="skill-icon">SW</div>
-            <h3>Software</h3>
-
-            <div class="skill-tags">
-                <span>Microsoft Word</span>
-                <span>Excel</span>
-                <span>PowerPoint</span>
-            </div>
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- PROJECTS -->
-<section id="projects" class="section projects-section">
-
-    <div class="section-heading">
-        <p class="section-number">03</p>
-        <h2>Projects</h2>
-    </div>
-
-    <p class="section-intro">
-        Hands-on projects where I have applied design, modeling,
-        hardware, and problem-solving skills.
-    </p>
-
-
-    <div class="projects-grid">
-
-        <!-- PROJECT 1 -->
-        <article class="project-card featured-project">
-
-            <div class="project-image project-drone">
-                <div class="image-placeholder">
-                    <span>PROJECT IMAGE</span>
-                    <small>Fire-Detecting RC Drone</small>
-                </div>
-            </div>
-
-            <div class="project-content">
-
-                <p class="project-number">PROJECT 01</p>
-
-                <h3>Fire-Detecting RC Drone</h3>
-
-                <p>
-                    Designed and built a custom RC drone with onboard
-                    sensors for fire detection.
-                </p>
-
-                <div class="project-tags">
-                    <span>Hardware</span>
-                    <span>RC Systems</span>
-                    <span>Design</span>
-                </div>
-
-            </div>
-
-        </article>
-
-
-        <!-- PROJECT 2 -->
-        <article class="project-card">
-
-            <div class="project-image project-robot">
-                <div class="image-placeholder">
-                    <span>PROJECT IMAGE</span>
-                    <small>FTC Robot Prototypes</small>
-                </div>
-            </div>
-
-            <div class="project-content">
-
-                <p class="project-number">PROJECT 02</p>
-
-                <h3>FTC Robot Prototypes</h3>
-
-                <p>
-                    Designed and assembled multiple robotics prototypes
-                    in SolidWorks.
-                </p>
-
-                <div class="project-tags">
-                    <span>SolidWorks</span>
-                    <span>Robotics</span>
-                    <span>Prototyping</span>
-                </div>
-
-            </div>
-
-        </article>
-
-
-        <!-- PROJECT 3 -->
-        <article class="project-card">
-
-            <div class="project-image project-computer">
-                <div class="image-placeholder">
-                    <span>PROJECT IMAGE</span>
-                    <small>High-End Computer Builds</small>
-                </div>
-            </div>
-
-            <div class="project-content">
-
-                <p class="project-number">PROJECT 03</p>
-
-                <h3>High-End Computer Builds</h3>
-
-                <p>
-                    Assembled multiple custom high-performance
-                    computer systems.
-                </p>
-
-                <div class="project-tags">
-                    <span>PC Hardware</span>
-                    <span>Assembly</span>
-                    <span>Optimization</span>
-                </div>
-
-            </div>
-
-        </article>
-
-    </div>
-
-</section>
-
-
-<!-- EXPERIENCE -->
-<section id="experience" class="section experience-section">
-
-    <div class="section-heading">
-        <p class="section-number">04</p>
-        <h2>Experience</h2>
-    </div>
-
-
-    <div class="timeline">
-
-        <!-- EXPERIENCE 1 -->
-        <div class="timeline-item">
-
-            <div class="timeline-marker"></div>
-
-            <div class="timeline-content">
-
-                <p class="timeline-date">SUMMER 2026</p>
-
-                <h3>Seasonal Employee</h3>
-
-                <h4>Castle Pines Village Metropolitan District</h4>
-
-                <p class="location">Castle Rock, CO</p>
-
-                <ul>
-                    <li>
-                        Completed multiple landscape and hardscape
-                        projects, including drainage systems,
-                        retaining walls, and re-landscaping.
-                    </li>
-
-                    <li>
-                        Handled site preparation, construction,
-                        and finishing work while meeting safety
-                        and quality standards.
-                    </li>
-
-                    <li>
-                        Collaborated with crew to deliver outdoor
-                        projects on schedule using hand tools
-                        and equipment.
-                    </li>
-                </ul>
-
-            </div>
-
-        </div>
-
-
-        <!-- EXPERIENCE 2 -->
-        <div class="timeline-item">
-
-            <div class="timeline-marker"></div>
-
-            <div class="timeline-content">
-
-                <p class="timeline-date">07/2024 – 06/2026</p>
-
-                <h3>Lifeguard</h3>
-
-                <h4>Highlands Ranch Community Association</h4>
-
-                <p class="location">Highlands Ranch, CO</p>
-
-                <ul>
-                    <li>
-                        Monitored pool area to ensure safety and
-                        compliance with health regulations.
-                    </li>
-
-                    <li>
-                        Responded promptly to emergency situations,
-                        administering first aid and CPR as needed.
-                    </li>
-                </ul>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ACHIEVEMENTS -->
-<section class="section achievements-section">
-
-    <div class="section-heading">
-        <p class="section-number">05</p>
-        <h2>Achievements & Activities</h2>
-    </div>
-
-
-    <div class="achievement-grid">
-
-        <div class="achievement-card featured-achievement">
-            <span class="achievement-year">2024</span>
-            <h3>FTC Inspire Award</h3>
-            <p>FIRST Tech Challenge Robotics</p>
-        </div>
-
-
-        <div class="achievement-card">
-            <span class="achievement-year">2024</span>
-            <h3>Winning Alliance</h3>
-            <p>FIRST Tech Challenge Robotics</p>
-        </div>
-
-
-        <div class="achievement-card">
-            <span class="achievement-year">2026</span>
-            <h3>Inspire Award — 3rd Place</h3>
-            <p>FIRST Tech Challenge Robotics</p>
-        </div>
-
-
-        <div class="achievement-card">
-            <span class="achievement-year">ATHLETICS</span>
-            <h3>Varsity Athletics</h3>
-            <p>Soccer & Baseball</p>
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- COMMUNITY SERVICE -->
-<section class="section service-section">
-
-    <div class="service-card">
-
-        <div>
-            <p class="section-number">06</p>
-            <h2>Community Service</h2>
-        </div>
-
-        <div class="service-content">
-
-            <div class="service-number">
-                200+
-                <span>HOURS</span>
-            </div>
-
-            <p>
-                Over 200 hours of community service, including assisting
-                with home construction and teaching essential hygiene
-                techniques in Belize.
-            </p>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- CERTIFICATION -->
-<section class="section certification-section">
-
-    <div class="section-heading">
-        <p class="section-number">07</p>
-        <h2>Certification</h2>
-    </div>
-
-    <div class="certification-card">
-
-        <div class="certification-info">
-
-            <p class="card-label">CERTIFICATION</p>
-
-            <h3>Certified SolidWorks Associate</h3>
-
-            <p>
-                CSWA certification demonstrating SolidWorks
-                CAD experience.
-            </p>
-
-            <div class="certification-badge">
-                CSWA
-            </div>
-
-        </div>
-
-        <div class="certification-image">
-            <img
-                src="images/cswa.png"
-                alt="Connor Kline CSWA Certification"
-            >
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- CONTACT -->
-<section id="contact" class="contact-section">
-
-    <div class="contact-grid">
-
-        <div>
-
-            <p class="section-number">08</p>
-
-            <h2>Let's Connect</h2>
-
-            <p class="contact-intro">
-                Interested in my engineering projects, experience,
-                or future opportunities? I'd be happy to connect.
-            </p>
-
-            <div class="contact-buttons">
-
-                <a
-                    href="mailto:connorkline2@gmail.com"
-                    class="button primary-button"
-                >
-                    Email Me
-                </a>
-
-                <a
-                    href="tel:7209808055"
-                    class="button secondary-button"
-                >
-                    Call Me
-                </a>
-
-            </div>
-
-        </div>
-
-
-        <div class="contact-info">
-
-            <div class="contact-item">
-                <span>EMAIL</span>
-                <a href="mailto:connorkline2@gmail.com">
-                    connorkline2@gmail.com
-                </a>
-            </div>
-
-            <div class="contact-item">
-                <span>PHONE</span>
-                <a href="tel:7209808055">
-                    (720) 980-8055
-                </a>
-            </div>
-
-            <div class="contact-item">
-                <span>LOCATION</span>
-                <p>Highlands Ranch, Colorado</p>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- FOOTER -->
-<footer>
-
-    <div class="footer-content">
-
-        <div>
-            <strong>Connor Kline</strong>
-            <p>Mechanical Engineering Portfolio</p>
-        </div>
-
-        <p>© 2026 Connor Kline</p>
-
-    </div>
-
-</footer>
-```
-
+        <a class="button" href="index.html">
+            Return to Homepage
+        </a>
+
+        <footer>
+            &copy; 2026 Connor Kline | Engineering Portfolio
+        </footer>
+    </main>
 </body>
 </html>
